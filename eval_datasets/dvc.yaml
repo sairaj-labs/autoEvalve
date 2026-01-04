@@ -1,0 +1,5 @@
+stages:
+  gsm8k:
+    cmd: python datasets/loaders/gsm8k.py
+    outs:
+      - data/gsm8k_v1

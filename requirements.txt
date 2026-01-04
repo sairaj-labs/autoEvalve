@@ -1,0 +1,97 @@
+# =========================
+# Core Python & Utilities
+# =========================
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+dataclasses-json>=0.6.3
+loguru>=0.7.2
+tqdm>=4.66.1
+tenacity>=8.2.3
+
+# =========================
+# Dataset Handling
+# =========================
+datasets>=2.16.1
+huggingface-hub>=0.20.2
+pandas>=2.1.4
+numpy>=1.26.2
+
+# =========================
+# Model & Embeddings
+# =========================
+torch>=2.1.2
+transformers>=4.36.2
+sentence-transformers>=2.2.2
+accelerate>=0.25.0
+
+# =========================
+# LLM APIs
+# =========================
+google-generativeai>=0.3.2
+anthropic>=0.8.0
+requests>=2.31.0
+
+# =========================
+# Evaluation & Metrics
+# =========================
+scikit-learn>=1.3.2
+scipy>=1.11.4
+nltk>=3.8.1
+rouge-score>=0.1.2
+evaluate>=0.4.1
+
+# =========================
+# Safety & Bias Evaluation
+# =========================
+detoxify>=0.5.1
+fairlearn>=0.10.0
+
+# =========================
+# Vector Search (Future RAG / Drift)
+# =========================
+faiss-cpu>=1.7.4
+
+# =========================
+# Parallel & Distributed
+# =========================
+ray>=2.8.1
+asyncio>=3.4.3
+
+# =========================
+# API Layer
+# =========================
+fastapi>=0.108.0
+uvicorn>=0.25.0
+
+# =========================
+# Monitoring & Experiment Tracking
+# =========================
+evidently>=0.4.13
+mlflow>=2.9.2
+
+# =========================
+# Dashboard
+# =========================
+streamlit>=1.29.0
+plotly>=5.18.0
+
+# =========================
+# Database
+# =========================
+sqlalchemy>=2.0.23
+psycopg2-binary>=2.9.9
+
+# =========================
+# Testing & Quality
+# =========================
+pytest>=7.4.3
+pytest-asyncio>=0.23.2
+black>=23.12.1
+isort>=5.13.2
+flake8>=6.1.0
+
+# =========================
+# MLOps & Infra
+# =========================
+dvc>=3.38.1
+docker>=7.0.0
